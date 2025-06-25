@@ -344,11 +344,9 @@ import '@fontsource/onest/900.css';
         text-align: center;
     }
 
-    h1 {
-        font-size: 4rem;
-    }
 
     .contenido h1 {
+        font-size: 5rem !important;
         margin: 0; 
         background: linear-gradient(90deg, #ff3366, #ff8c42, #ffde59, #e4e006, #c28107, #cac701);
         -webkit-background-clip: text;
@@ -405,8 +403,8 @@ import '@fontsource/onest/900.css';
     }
 
     .contenido2 {
-        margin-left: 120px;
-        max-width: 800px;
+        margin-left: 100px;
+        max-width: 700px;
         flex: 1;
     }
 
@@ -479,10 +477,11 @@ import '@fontsource/onest/900.css';
 
     .habilidades-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-template-columns: repeat(4, 1fr);
         gap: 30px;
         margin-top: 40px;
-        max-width: 1200px;
+        max-width: 700px;
+        justify-items: center;
     }
 
     .habilidad {
@@ -498,6 +497,7 @@ import '@fontsource/onest/900.css';
         border: 1px solid rgba(255, 255, 255, 0.1);
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
         z-index: 1;
+        width: 130px;
     }
 
     .habilidad::before {
