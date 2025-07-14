@@ -638,6 +638,7 @@
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
+        justify-content: center;
     }
 
     .tecnologias span {
@@ -791,6 +792,7 @@
     .contacto-item {
         display: flex;
         align-items: center;
+        justify-content: flex-start;
         gap: 20px;
         padding: 25px;
         background: rgba(40, 40, 40, 0.8);
@@ -798,6 +800,7 @@
         border: 1px solid rgba(255, 255, 255, 0.1);
         transition: all 0.3s ease;
         backdrop-filter: blur(10px);
+        text-align: left;
     }
 
     .contacto-item:hover {
@@ -819,15 +822,22 @@
         flex-shrink: 0;
     }
 
+    .contacto-texto {
+        flex: 1;
+    }
+
     .contacto-texto h3 {
         color: white;
         margin-bottom: 5px;
         font-size: 1.2rem;
+        font-weight: 600;
     }
 
     .contacto-texto p {
         color: rgba(255, 255, 255, 0.7);
         margin: 0;
+        font-size: 1rem;
+        line-height: 1.4;
     }
 
     .contacto-form {
