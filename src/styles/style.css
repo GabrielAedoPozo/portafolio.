@@ -110,6 +110,42 @@
         flex: 1;
     }
 
+    /* Centrar contenido2 específicamente en la sección de habilidades */
+    #Habilidades .contenido2 {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        width: 100%;
+        max-width: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Centrar contenido2 específicamente en la sección de proyectos */
+    #proyectos .contenido2 {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        width: 100%;
+        max-width: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Centrar contenido2 específicamente en la sección de contacto */
+    #contacto .contenido2 {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        width: 100%;
+        max-width: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     /* Media queries para pantallas medianas y pequeñas */
     @media (max-width: 1200px) {
         #sobremi {
@@ -246,6 +282,10 @@
 
     #Habilidades {
         padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     #Habilidades h1 {
@@ -265,7 +305,7 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 30px;
-        margin-top: 40px;
+        margin: 40px auto 0;
         max-width: 700px;
         justify-items: center;
     }
@@ -275,6 +315,7 @@
         .habilidades-grid {
             grid-template-columns: repeat(3, 1fr);
             max-width: 600px;
+            margin: 40px auto 0;
         }
     }
 
@@ -283,6 +324,7 @@
             grid-template-columns: repeat(3, 1fr);
             max-width: 480px;
             gap: 25px;
+            margin: 40px auto 0;
         }
     }
 
@@ -291,6 +333,7 @@
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
             max-width: 400px;
+            margin: 40px auto 0;
         }
 
         .habilidad {
@@ -308,6 +351,7 @@
             grid-template-columns: repeat(2, 1fr);
             gap: 15px;
             max-width: 350px;
+            margin: 40px auto 0;
         }
 
         .habilidad {
@@ -325,6 +369,7 @@
             grid-template-columns: repeat(2, 1fr);
             gap: 12px;
             max-width: 320px;
+            margin: 40px auto 0;
         }
 
         .habilidad {
@@ -455,6 +500,10 @@
     #proyectos {
         padding: 100px 0;
         min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     #proyectos h1 {
@@ -705,6 +754,10 @@
 
     #contacto {
         min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     #contacto h1 {
@@ -1299,7 +1352,7 @@
     .habilidades-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
-        margin-top: 25px;
+        margin: 25px auto 0;
         max-width: 350px;
     }
     
@@ -1545,6 +1598,7 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
         max-width: 300px;
+        margin: 25px auto 0;
     }
     
     .habilidad {
