@@ -11,6 +11,6 @@
   "dependencies": {
     "@fontsource-variable/onest": "^5.2.9",
     "@fontsource/onest": "^5.2.9",
-    "astro": "^5.10.0"
+    "astro": "^5.12.3"
   }
 }
